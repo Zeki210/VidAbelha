@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | VidAbelha</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Amarna:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+
+  <style>
+    .produtos-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+      padding: 40px 10%;
+      text-align: center;
+    }
+
+    .produto-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      padding: 25px;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .produto-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .produto-card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      object-fit: cover;
+      height: 220px;
+    }
+
+    .produto-card h3 {
+      font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+      color: #2b2116;
+      margin-bottom: 10px;
+    }
+
+    .produto-card p {
+      color: #4a3e2b;
+      font-size: 0.95em;
+      margin: 0 0 10px;
+    }
+
+    .produto-card strong {
+      display: block;
+      margin: 10px 0 15px;
+      font-size: 1.1em;
+      color: #000;
+    }
+
+    .produto-card .btn {
+      align-self: center;
+      text-decoration: none;
+      background: #e1b12c;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .produto-card .btn:hover {
+      background: #d4a021;
+      transform: scale(1.05);
+    }
+
+    h2 {
+      text-align: center;
+      font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+      font-size: 2em;
+      color: #e1b12c;
+      margin-top: 60px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      font-size: 1.05em;
+      color: #4a3e2b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VidAbelha</h1>
+    <nav>
+      <img src="images/Logo.png" alt="Logo VidAbelha" class="logo-canto">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="beneficios.html">Benefícios</a>
+      <a href="contato.html">Contato</a>
+      <a href="criar-conta.html" style="color: var(--gold); font-weight: bold;">Crie sua conta</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Nossos Produtos</h2>
+    <p class="intro">
+      Oferecemos diferentes tipos de mel e derivados para todos os gostos. <br>
+      Cada produto é cuidadosamente envasado e mantém o aroma e sabor originais do mel puro e natural.
+    </p>
+
+    <section class="produtos-container">
+      <div class="produto-card">
+        <img src="images/mel1.jpg" alt="Mel Silvestre">
+        <h3>Mel Silvestre (500g)</h3>
+        <p>Produzido a partir de flores nativas, com sabor suave e equilibrado. Ideal para o dia a dia.</p>
+        <strong>R$ 26,00</strong>
+        <a href="https://wa.me/5511994438383?text=Olá! Quero comprar o Mel Silvestre 🍯" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto-card">
+        <img src="images/mel4.jpg" alt="Mel com Própolis">
+        <h3>Favo de mel - Pedaço</h3>
+        <p>Combinação poderosa contra gripes e resfriados, fortalecendo a imunidade naturalmente.</p>
+        <strong>250g - R$ 35,00</strong>
+        <strong>500g - R$ 65,00</strong>
+        <a href="https://wa.me/5511994438383?text=Olá! Quero comprar o Mel com Própolis 🍯" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto-card">
+        <img src="images/mel10.jpg" alt="Mel com Própolis">
+        <h3>Mel em sachê</h3>
+        <p>Combinação poderosa contra gripes e resfriados, fortalecendo a imunidade naturalmente.</p>
+        <strong>R$ 4,90</strong>
+        <a href="https://wa.me/5511994438383?text=Olá! Quero comprar o Mel com Própolis 🍯" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto-card">
+        <img src="images/Mel 250.jpg" alt="Mel de Eucalipto">
+        <h3>Mel de Eucalipto Bisnaga (280g)</h3>
+        <p>Sabor marcante, com propriedades expectorantes. Perfeito para chás e receitas caseiras.</p>
+        <strong>R$ 16,50</strong>
+        <a href="https://wa.me/5511994438383?text=Olá! Quero comprar o Mel de Eucalipto 🍯" class="btn">Comprar</a>
+      </div>
+
+
+
+      <div class="produto-card">
+        <img src="images/mel9.jpg" alt="Própolis">
+        <h3>Própolis Verde <br>(20ml)</h3>
+        <p>Própolis, fortalece o sistema imunológico possui ação anti-inflamatória e combate infecções</p>
+        <strong>R$ 14,90</strong>
+        <a href="https://wa.me/5511994438383?text=Olá! Quero comprar o Extrato de Própolis 🍯" class="btn">Comprar</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por: Ezequiel | Gabriel | Gustavo - 1ºInfo Etec Poá - © Todos os direitos reservados. - 2025</p>
+    <p><a href="https://wa.me/5511994438383">Fale conosco</a></p>
+  </footer>
+
+</body>
+</html>

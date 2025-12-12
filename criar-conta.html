@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie Sua Conta - VidAbelha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Amarna:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+<header>
+    <h1>VidAbelha</h1>
+    <nav>
+        <img src="images/Logo.png" alt="Logo VidAbelha" class="logo-canto">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="beneficios.html">Benefícios</a>
+        <a href="contato.html">Contato</a>
+        <a href="criar-conta.html" style="color: var(--gold); font-weight: bold;">Crie sua conta</a>
+    </nav>
+</header>
+
+<article>
+    <h2>Crie Sua Conta</h2>
+    <p>Preencha os campos abaixo para criar sua conta e receber novidades e promoções especiais.</p>
+
+    <form action="#" method="post" style="max-width:600px; margin:auto; text-align:left;">
+
+        <label>Nome completo</label>
+        <input type="text" required placeholder="Seu nome" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Data de nascimento</label>
+        <input type="date" required style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Gênero</label>
+        <select style="width:100%; padding:10px; margin-bottom:15px;">
+            <option value="">Selecione</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Prefiro não informar</option>
+        </select>
+
+        <label>Email</label>
+        <input type="email" required placeholder="seuemail@gmail.com" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Telefone</label>
+        <input type="tel" placeholder="(11) 99999-9999" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>CPF</label>
+        <input type="text" placeholder="000.000.000-00" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Endereço</label>
+        <input type="text" placeholder="Rua, número" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Bairro</label>
+        <input type="text" placeholder="Bairro" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Cidade</label>
+        <input type="text" placeholder="Sua cidade" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Estado</label>
+        <select style="width:100%; padding:10px; margin-bottom:15px;">
+            <option value="">Selecione</option>
+            <option>SP</option><option>RJ</option><option>MG</option><option>ES</option>
+            <option>PR</option><option>SC</option><option>RS</option>
+            <option>BA</option><option>PE</option><option>CE</option>
+        </select>
+
+        <label>Senha</label>
+        <input type="password" required placeholder="Crie uma senha" style="width:100%; padding:10px; margin-bottom:15px;">
+
+        <label>Confirmar senha</label>
+        <input type="password" required placeholder="Repita sua senha" style="width:100%; padding:10px; margin-bottom:20px;">
+
+        <button class="btn" style="width:100%; text-align:center;">Criar conta</button>
+    </form>
+</article>
+
+<footer>
+    <p>Feito por: Ezequiel | Gabriel | Gustavo - 1ºInfo Etec Poá - © Todos os direitos reservados. - 2025</p>
+    <p><a href="https://wa.me/5511994438383">Fale conosco</a></p>
+</footer>
+
+</body>
+</html>
